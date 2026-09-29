@@ -1,0 +1,40 @@
+{
+  "corpus": {
+    "chars": 906088,
+    "sentences": 86580,
+    "source": "Project Gutenberg pg24264 紅樓夢 (public domain)"
+  },
+  "recursive": {
+    "max_chars": 402,
+    "overlap": 50,
+    "chunks": 2350,
+    "avg_chars": 392.7,
+    "min_chars": 48,
+    "throughput_MBps": 21.758,
+    "elapsed_s": 0.042,
+    "over_budget": 0,
+    "hygiene_end_opener_violations": 0,
+    "hygiene_start_closer_violations": 0,
+    "end_rule_distribution": {
+      "newline": 2111,
+      "paragraph": 109,
+      "budget": 88,
+      "clause": 39,
+      "sentence": 2,
+      "text_end": 1
+    }
+  },
+  "markdown": {
+    "wrapped_chars": 616546,
+    "chunks": 1793,
+    "throughput_MBps": 15.736,
+    "end_rule_distribution": {
+      "newline": 1272,
+      "heading": 333,
+      "paragraph": 108,
+      "budget": 52,
+      "clause": 27,
+      "text_end": 1
+    }
+  }
+}

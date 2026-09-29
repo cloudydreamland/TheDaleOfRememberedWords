@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "worddael"
+version = "0.1.0rc3"
+description = "The Dale of Remembered Words (Worddael) | Chinese-aware RAG text chunking"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "worddael contributors" }]
+requires-python = ">=3.10"
+keywords = ["chinese", "chunking", "rag", "nlp", "text-splitting", "retrieval"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Chinese (Simplified)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.optional-dependencies]
+jieba = ["jieba>=0.42"]
+tiktoken = ["tiktoken>=0.7"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+worddael = "worddael.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/cloudydreamland/TheDaleOfRememberedWords"
+Repository = "https://github.com/cloudydreamland/TheDaleOfRememberedWords"
+Issues = "https://github.com/cloudydreamland/TheDaleOfRememberedWords/issues"
+Changelog = "https://github.com/cloudydreamland/TheDaleOfRememberedWords/blob/main/CHANGELOG.md"
+Security = "https://github.com/cloudydreamland/TheDaleOfRememberedWords/security/policy"
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+worddael = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501"]
