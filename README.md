@@ -1,0 +1,73 @@
+# The Dale of Remembered Words — Worddael
+
+**Worddael** is a lightweight Python library for chunking Chinese text for retrieval-augmented generation (RAG), while preserving exact offsets into the source.
+
+[![CI](https://github.com/cloudydreamland/TheDaleOfRememberedWords/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/TheDaleOfRememberedWords/actions/workflows/ci.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
+[![MIT license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+Every returned chunk retains its original text span, so retrieved passages can be traced back to a document without reconstructing offsets.
+
+## Quick start
+
+```bash
+# From the repository root, after cloning:
+python -m pip install .
+# After the package is published to PyPI:
+python -m pip install worddael
+```
+
+```python
+from worddael import chunk
+
+source = "第一段。第二段包含一个版本号 v1.2.3。第三段。"
+chunks = chunk(source, strategy="recursive", max_chars=20, overlap_chars=0)
+
+for item in chunks:
+    assert item.text == source[item.start:item.end]
+```
+
+Try the CLI or run the local retrieval evaluation:
+
+```bash
+worddael manual.md --stats
+python -m worddael.eval.report --k 3
+```
+
+Optional integrations are installed only when needed:
+
+```bash
+python -m pip install ".[jieba]"    # word-aware counting
+python -m pip install ".[tiktoken]" # OpenAI tokenizer counting
+```
+
+## Features
+
+- Chinese sentence boundaries, including closing quotation marks and full-width punctuation.
+- Exact source offsets for every chunk.
+- Recursive, sentence, Markdown, token, semantic, and parent-child strategies.
+- Markdown heading paths and code-fence handling.
+- Optional embedding and token-counter integrations; no required runtime dependencies.
+- Built-in retrieval evaluation and a `LangChain` adapter.
+
+## Evaluation and limitations
+
+The included retrieval corpus is a small, versioned development benchmark, not evidence that one chunking strategy wins for every application. See [benchmark results](benchmarks/results.md) and the [evaluation guide](docs/eval_guide.md) for its scope and reproduction steps. The built-in hashing embedder is a pipeline smoke-test utility, not a semantic-quality baseline.
+
+## Documentation
+
+- [中文文档](README.zh-CN.md)
+- [Architecture](docs/architecture.md)
+- [Chinese splitter examples](docs/status_quo.md)
+- [Evaluation guide](docs/eval_guide.md)
+- [Changelog](CHANGELOG.md)
+- [Roadmap](ROADMAP.md)
+- [Research notes](GAP_PROOF.md)
+
+## Contributing and security
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Please report security issues privately; see [SECURITY.md](SECURITY.md).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
