@@ -50,6 +50,15 @@ python -m pip install ".[tiktoken]" # OpenAI tokenizer counting
 - Optional embedding and token-counter integrations; no required runtime dependencies.
 - Built-in retrieval evaluation and a `LangChain` adapter.
 
+| Strategy | Best for |
+| --- | --- |
+| `recursive` | General Chinese prose with exact source spans. |
+| `markdown` | Documents organized by headings and code fences. |
+| `sentence` | Keeping sentence boundaries intact. |
+| `token` | Packing text to a token budget. |
+| `semantic` | Embedding guided splits when an embedder is configured. |
+| `parent-child` | Retrieving small passages with larger parent context. |
+
 ## Evaluation and limitations
 
 The included retrieval corpus is a small, versioned development benchmark, not evidence that one chunking strategy wins for every application. See [benchmark results](benchmarks/results.md) and the [evaluation guide](docs/eval_guide.md) for its scope and reproduction steps. The built-in hashing embedder is a pipeline smoke-test utility, not a semantic-quality baseline.

@@ -7,6 +7,7 @@ docs/dogfood.md (24 MB/s on 0.9M chars, 2026-09-27).
 
 from __future__ import annotations
 
+import statistics
 import time
 
 from conftest import random_zh_text
@@ -55,17 +56,24 @@ def test_markdown_table_rows_stay_intact():
 
 def test_scaling_stays_near_linear():
     """4x data must not cost more than ~5x time (guards against accidental
-    quadratic paths in merge/hygiene). Generous slack for CI variance."""
+    quadratic paths in merge/hygiene). Median timings damp CI noise."""
     text_100 = random_zh_text(201, min_len=100_000, max_len=105_000)
     text_400 = random_zh_text(201, min_len=400_000, max_len=405_000)
     chunker = RecursiveChunker(max_chars=400, overlap_chars=50)
 
-    t0 = time.perf_counter()
+    # Warm up imports/caches before measuring. A single few-millisecond sample
+    # is too noisy to compare reliably on shared CI runners.
     chunker.chunk(text_100)
-    small = time.perf_counter() - t0
-
-    t0 = time.perf_counter()
     chunker.chunk(text_400)
-    big = time.perf_counter() - t0
 
-    assert big < small * 5 * 1.2, f"super-linear scaling: 4x data cost {big / max(small, 1e-6):.1f}x"
+    def median_runtime(text: str) -> float:
+        samples = []
+        for _ in range(5):
+            t0 = time.perf_counter()
+            chunker.chunk(text)
+            samples.append(time.perf_counter() - t0)
+        return statistics.median(samples)
+
+    small = median_runtime(text_100)
+    big = median_runtime(text_400)
+    assert big < small * 6, f"super-linear scaling: 4x data cost {big / max(small, 1e-6):.1f}x"
