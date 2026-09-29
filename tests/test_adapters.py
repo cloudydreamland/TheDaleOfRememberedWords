@@ -55,6 +55,7 @@ def test_cli_demo_runs():
         [sys.executable, "-m", "worddael.cli", "demo"],
         capture_output=True,
         text=True,
+        encoding="utf-8",
     )
     assert proc.returncode == 0, proc.stderr
     assert "worddael demo" in proc.stdout

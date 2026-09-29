@@ -16,6 +16,15 @@ from . import __version__, chunk_file
 from .types import Chunk
 
 
+def _configure_utf8_output() -> None:
+    """Keep Chinese CLI output usable on legacy Windows console encodings."""
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        encoding = (getattr(stream, "encoding", None) or "").lower().replace("_", "-")
+        if reconfigure is not None and encoding not in {"utf-8", "utf8"}:
+            reconfigure(encoding="utf-8")
+
+
 def _stats(chunks: list[Chunk]) -> str:
     if not chunks:
         return "no chunks"
@@ -56,6 +65,7 @@ def _demo() -> int:
 
 
 def main(argv: list[str] | None = None) -> int:
+    _configure_utf8_output()
     parser = argparse.ArgumentParser(
         prog="worddael",
         description="Worddael — Chinese-first text chunking for RAG",
