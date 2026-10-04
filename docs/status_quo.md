@@ -64,7 +64,7 @@ chunk2 @90: 第四章 报销时限。…
 ## 诚实说明
 
 1. LangChain 并非不能配置好——B 方案已大幅改善，本文件论证的是**默认路径的坑 + 配置好的隐性成本**（每个团队手传一遍分隔符、手算一遍偏移、没有任何测试保证）。
-2. 单文档示例不构成统计结论；规模化数字见 `benchmarks/results.md`（25 篇 / 75 问：recursive recall@1 0.973 vs fixed-window 0.947，见 benchmarks/results.md）。
+2. 单文档示例不构成统计结论；规模化数字见 `benchmarks/results.md`（25 篇 / 75 问：recursive recall@1 0.96 vs fixed-window 0.907，见 benchmarks/results.md）。
 3. 实验仅对比切分环节本身，不评价 LangChain 框架整体。
 
 ## 复现

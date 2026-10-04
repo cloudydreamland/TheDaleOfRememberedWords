@@ -131,7 +131,7 @@ LangChain 默认参数切中文的**真实坏例子**（答案腰斩、标题孤
 ## 评测 / Evaluation
 
 - 内置基准（25 篇 / 75 问）真实结果：[benchmarks/results.md](benchmarks/results.md)
-  - 当前快照：recall@1 recursive 0.973 vs fixed-window 0.947；小-大检索（子块 150 检索 / 父块 600 判分）1.0 vs 平铺 0.973
+  - 当前快照：recall@1 recursive 0.96 vs fixed-window 0.907；小-大检索（子块 150 检索 / 父块 600 判分）0.987 vs 平铺 0.96
 - 大规模 LLM 判分评测指南（拿到 key 后）：[docs/eval_guide.md](docs/eval_guide.md)
 - 选题论证（为什么这个缺口是真的）：[GAP_PROOF.md](GAP_PROOF.md)
 
