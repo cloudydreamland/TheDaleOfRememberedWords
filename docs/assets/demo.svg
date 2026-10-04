@@ -1,0 +1,145 @@
+<svg class="rich-terminal" viewBox="0 0 1214 562.4" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generated with Rich https://www.textualize.io -->
+    <style>
+
+    @font-face {
+        font-family: "Fira Code";
+        src: local("FiraCode-Regular"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff2/FiraCode-Regular.woff2") format("woff2"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff/FiraCode-Regular.woff") format("woff");
+        font-style: normal;
+        font-weight: 400;
+    }
+    @font-face {
+        font-family: "Fira Code";
+        src: local("FiraCode-Bold"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff2/FiraCode-Bold.woff2") format("woff2"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff/FiraCode-Bold.woff") format("woff");
+        font-style: bold;
+        font-weight: 700;
+    }
+
+    .terminal-2567863954-matrix {
+        font-family: Fira Code, monospace;
+        font-size: 20px;
+        line-height: 24.4px;
+        font-variant-east-asian: full-width;
+    }
+
+    .terminal-2567863954-title {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: arial;
+    }
+
+    .terminal-2567863954-r1 { fill: #98a84b;font-weight: bold }
+.terminal-2567863954-r2 { fill: #c5c8c6 }
+.terminal-2567863954-r3 { fill: #c5c8c6;font-weight: bold }
+.terminal-2567863954-r4 { fill: #98a84b }
+.terminal-2567863954-r5 { fill: #68a0b3;font-weight: bold }
+.terminal-2567863954-r6 { fill: #868887 }
+.terminal-2567863954-r7 { fill: #00823d;font-style: italic; }
+.terminal-2567863954-r8 { fill: #d0b344 }
+    </style>
+
+    <defs>
+    <clipPath id="terminal-2567863954-clip-terminal">
+      <rect x="0" y="0" width="1194.6" height="511.4" />
+    </clipPath>
+    <clipPath id="terminal-2567863954-line-0">
+    <rect x="0" y="1.5" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-1">
+    <rect x="0" y="25.9" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-2">
+    <rect x="0" y="50.3" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-3">
+    <rect x="0" y="74.7" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-4">
+    <rect x="0" y="99.1" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-5">
+    <rect x="0" y="123.5" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-6">
+    <rect x="0" y="147.9" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-7">
+    <rect x="0" y="172.3" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-8">
+    <rect x="0" y="196.7" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-9">
+    <rect x="0" y="221.1" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-10">
+    <rect x="0" y="245.5" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-11">
+    <rect x="0" y="269.9" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-12">
+    <rect x="0" y="294.3" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-13">
+    <rect x="0" y="318.7" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-14">
+    <rect x="0" y="343.1" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-15">
+    <rect x="0" y="367.5" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-16">
+    <rect x="0" y="391.9" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-17">
+    <rect x="0" y="416.3" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-18">
+    <rect x="0" y="440.7" width="1195.6" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2567863954-line-19">
+    <rect x="0" y="465.1" width="1195.6" height="24.65"/>
+            </clipPath>
+    </defs>
+
+    <rect fill="#292929" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="1" y="1" width="1212" height="560.4" rx="8"/><text class="terminal-2567863954-title" fill="#c5c8c6" text-anchor="middle" x="606" y="27">worddael&#160;—&#160;30&#160;second&#160;demo</text>
+            <g transform="translate(26,22)">
+            <circle cx="0" cy="0" r="7" fill="#ff5f57"/>
+            <circle cx="22" cy="0" r="7" fill="#febc2e"/>
+            <circle cx="44" cy="0" r="7" fill="#28c840"/>
+            </g>
+        
+    <g transform="translate(9, 41)" clip-path="url(#terminal-2567863954-clip-terminal)">
+    
+    <g class="terminal-2567863954-matrix">
+    <text class="terminal-2567863954-r1" x="0" y="20" textLength="12.2" clip-path="url(#terminal-2567863954-line-0)">$</text><text class="terminal-2567863954-r2" x="12.2" y="20" textLength="256.2" clip-path="url(#terminal-2567863954-line-0)">&#160;pip&#160;install&#160;worddael</text><text class="terminal-2567863954-r2" x="1195.6" y="20" textLength="12.2" clip-path="url(#terminal-2567863954-line-0)">
+</text><text class="terminal-2567863954-r2" x="1195.6" y="44.4" textLength="12.2" clip-path="url(#terminal-2567863954-line-1)">
+</text><text class="terminal-2567863954-r1" x="0" y="68.8" textLength="12.2" clip-path="url(#terminal-2567863954-line-2)">$</text><text class="terminal-2567863954-r2" x="12.2" y="68.8" textLength="475.8" clip-path="url(#terminal-2567863954-line-2)">&#160;worddael&#160;docs/assets/sample.md&#160;--stats</text><text class="terminal-2567863954-r2" x="1195.6" y="68.8" textLength="12.2" clip-path="url(#terminal-2567863954-line-2)">
+</text><text class="terminal-2567863954-r3" x="0" y="93.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-3)">{</text><text class="terminal-2567863954-r4" x="12.2" y="93.2" textLength="73.2" clip-path="url(#terminal-2567863954-line-3)">&quot;text&quot;</text><text class="terminal-2567863954-r2" x="85.4" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">:&#160;</text><text class="terminal-2567863954-r4" x="109.8" y="93.2" textLength="195.2" clip-path="url(#terminal-2567863954-line-3)">&quot;#&#160;智能音箱设置指南\n\n&quot;</text><text class="terminal-2567863954-r2" x="402.6" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">,&#160;</text><text class="terminal-2567863954-r4" x="427" y="93.2" textLength="85.4" clip-path="url(#terminal-2567863954-line-3)">&quot;start&quot;</text><text class="terminal-2567863954-r2" x="512.4" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">:&#160;</text><text class="terminal-2567863954-r5" x="536.8" y="93.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-3)">0</text><text class="terminal-2567863954-r2" x="549" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">,&#160;</text><text class="terminal-2567863954-r4" x="573.4" y="93.2" textLength="61" clip-path="url(#terminal-2567863954-line-3)">&quot;end&quot;</text><text class="terminal-2567863954-r2" x="634.4" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">:&#160;</text><text class="terminal-2567863954-r5" x="658.8" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">12</text><text class="terminal-2567863954-r2" x="683.2" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">,&#160;</text><text class="terminal-2567863954-r4" x="707.6" y="93.2" textLength="61" clip-path="url(#terminal-2567863954-line-3)">&quot;seq&quot;</text><text class="terminal-2567863954-r2" x="768.6" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">:&#160;</text><text class="terminal-2567863954-r5" x="793" y="93.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-3)">0</text><text class="terminal-2567863954-r2" x="805.2" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">,&#160;</text><text class="terminal-2567863954-r4" x="829.6" y="93.2" textLength="122" clip-path="url(#terminal-2567863954-line-3)">&quot;strategy&quot;</text><text class="terminal-2567863954-r2" x="951.6" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">:&#160;</text><text class="terminal-2567863954-r4" x="976" y="93.2" textLength="122" clip-path="url(#terminal-2567863954-line-3)">&quot;markdown&quot;</text><text class="terminal-2567863954-r2" x="1098" y="93.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-3)">,&#160;</text><text class="terminal-2567863954-r2" x="1195.6" y="93.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-3)">
+</text><text class="terminal-2567863954-r4" x="0" y="117.6" textLength="73.2" clip-path="url(#terminal-2567863954-line-4)">&quot;meta&quot;</text><text class="terminal-2567863954-r2" x="73.2" y="117.6" textLength="24.4" clip-path="url(#terminal-2567863954-line-4)">:&#160;</text><text class="terminal-2567863954-r3" x="97.6" y="117.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-4)">{</text><text class="terminal-2567863954-r4" x="109.8" y="117.6" textLength="183" clip-path="url(#terminal-2567863954-line-4)">&quot;overlap_chars&quot;</text><text class="terminal-2567863954-r2" x="292.8" y="117.6" textLength="24.4" clip-path="url(#terminal-2567863954-line-4)">:&#160;</text><text class="terminal-2567863954-r5" x="317.2" y="117.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-4)">0</text><text class="terminal-2567863954-r2" x="329.4" y="117.6" textLength="24.4" clip-path="url(#terminal-2567863954-line-4)">,&#160;</text><text class="terminal-2567863954-r4" x="353.8" y="117.6" textLength="122" clip-path="url(#terminal-2567863954-line-4)">&quot;headings&quot;</text><text class="terminal-2567863954-r2" x="475.8" y="117.6" textLength="24.4" clip-path="url(#terminal-2567863954-line-4)">:&#160;</text><text class="terminal-2567863954-r3" x="500.2" y="117.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-4)">[</text><text class="terminal-2567863954-r4" x="512.4" y="117.6" textLength="122" clip-path="url(#terminal-2567863954-line-4)">&quot;智能音箱设置指南&quot;</text><text class="terminal-2567863954-r3" x="732" y="117.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-4)">]</text><text class="terminal-2567863954-r3" x="744.2" y="117.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-4)">}</text><text class="terminal-2567863954-r3" x="756.4" y="117.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-4)">}</text><text class="terminal-2567863954-r2" x="1195.6" y="117.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-4)">
+</text><text class="terminal-2567863954-r3" x="0" y="142" textLength="12.2" clip-path="url(#terminal-2567863954-line-5)">{</text><text class="terminal-2567863954-r4" x="12.2" y="142" textLength="73.2" clip-path="url(#terminal-2567863954-line-5)">&quot;text&quot;</text><text class="terminal-2567863954-r2" x="85.4" y="142" textLength="24.4" clip-path="url(#terminal-2567863954-line-5)">:&#160;</text><text class="terminal-2567863954-r4" x="109.8" y="142" textLength="634.4" clip-path="url(#terminal-2567863954-line-5)">&quot;##&#160;开箱与联网\n\n首次开机后，指示灯变为橙色，表示设备进入配网模式。请确保手机连接&#160;2.4GHz</text><text class="terminal-2567863954-r2" x="1195.6" y="142" textLength="12.2" clip-path="url(#terminal-2567863954-line-5)">
+</text><text class="terminal-2567863954-r4" x="0" y="166.4" textLength="561.2" clip-path="url(#terminal-2567863954-line-6)">Wi-Fi——5GHz&#160;频段暂不支持配网（固件版本低于&#160;3.14&#160;时尤其如此）。\n\n&gt;&#160;</text><text class="terminal-2567863954-r2" x="1195.6" y="166.4" textLength="12.2" clip-path="url(#terminal-2567863954-line-6)">
+</text><text class="terminal-2567863954-r4" x="0" y="190.8" textLength="597.8" clip-path="url(#terminal-2567863954-line-7)">常见问题：指示灯闪烁红色怎么办？\n&gt;&#160;长按顶部静音键&#160;8&#160;秒恢复出厂设置，再重新配网。\n\n&quot;</text><text class="terminal-2567863954-r2" x="1049.2" y="190.8" textLength="24.4" clip-path="url(#terminal-2567863954-line-7)">,&#160;</text><text class="terminal-2567863954-r4" x="1073.6" y="190.8" textLength="85.4" clip-path="url(#terminal-2567863954-line-7)">&quot;start&quot;</text><text class="terminal-2567863954-r2" x="1159" y="190.8" textLength="24.4" clip-path="url(#terminal-2567863954-line-7)">:&#160;</text><text class="terminal-2567863954-r2" x="1195.6" y="190.8" textLength="12.2" clip-path="url(#terminal-2567863954-line-7)">
+</text><text class="terminal-2567863954-r5" x="0" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">12</text><text class="terminal-2567863954-r2" x="24.4" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">,&#160;</text><text class="terminal-2567863954-r4" x="48.8" y="215.2" textLength="61" clip-path="url(#terminal-2567863954-line-8)">&quot;end&quot;</text><text class="terminal-2567863954-r2" x="109.8" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">:&#160;</text><text class="terminal-2567863954-r5" x="134.2" y="215.2" textLength="36.6" clip-path="url(#terminal-2567863954-line-8)">151</text><text class="terminal-2567863954-r2" x="170.8" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">,&#160;</text><text class="terminal-2567863954-r4" x="195.2" y="215.2" textLength="61" clip-path="url(#terminal-2567863954-line-8)">&quot;seq&quot;</text><text class="terminal-2567863954-r2" x="256.2" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">:&#160;</text><text class="terminal-2567863954-r5" x="280.6" y="215.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-8)">1</text><text class="terminal-2567863954-r2" x="292.8" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">,&#160;</text><text class="terminal-2567863954-r4" x="317.2" y="215.2" textLength="122" clip-path="url(#terminal-2567863954-line-8)">&quot;strategy&quot;</text><text class="terminal-2567863954-r2" x="439.2" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">:&#160;</text><text class="terminal-2567863954-r4" x="463.6" y="215.2" textLength="122" clip-path="url(#terminal-2567863954-line-8)">&quot;markdown&quot;</text><text class="terminal-2567863954-r2" x="585.6" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">,&#160;</text><text class="terminal-2567863954-r4" x="610" y="215.2" textLength="73.2" clip-path="url(#terminal-2567863954-line-8)">&quot;meta&quot;</text><text class="terminal-2567863954-r2" x="683.2" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">:&#160;</text><text class="terminal-2567863954-r3" x="707.6" y="215.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-8)">{</text><text class="terminal-2567863954-r4" x="719.8" y="215.2" textLength="183" clip-path="url(#terminal-2567863954-line-8)">&quot;overlap_chars&quot;</text><text class="terminal-2567863954-r2" x="902.8" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">:&#160;</text><text class="terminal-2567863954-r5" x="927.2" y="215.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-8)">0</text><text class="terminal-2567863954-r2" x="939.4" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">,&#160;</text><text class="terminal-2567863954-r4" x="963.8" y="215.2" textLength="122" clip-path="url(#terminal-2567863954-line-8)">&quot;headings&quot;</text><text class="terminal-2567863954-r2" x="1085.8" y="215.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-8)">:&#160;</text><text class="terminal-2567863954-r2" x="1195.6" y="215.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-8)">
+</text><text class="terminal-2567863954-r3" x="0" y="239.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-9)">[</text><text class="terminal-2567863954-r4" x="12.2" y="239.6" textLength="122" clip-path="url(#terminal-2567863954-line-9)">&quot;智能音箱设置指南&quot;</text><text class="terminal-2567863954-r2" x="231.8" y="239.6" textLength="24.4" clip-path="url(#terminal-2567863954-line-9)">,&#160;</text><text class="terminal-2567863954-r4" x="256.2" y="239.6" textLength="85.4" clip-path="url(#terminal-2567863954-line-9)">&quot;开箱与联网&quot;</text><text class="terminal-2567863954-r3" x="402.6" y="239.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-9)">]</text><text class="terminal-2567863954-r3" x="414.8" y="239.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-9)">}</text><text class="terminal-2567863954-r3" x="427" y="239.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-9)">}</text><text class="terminal-2567863954-r2" x="1195.6" y="239.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-9)">
+</text><text class="terminal-2567863954-r3" x="0" y="264" textLength="12.2" clip-path="url(#terminal-2567863954-line-10)">{</text><text class="terminal-2567863954-r4" x="12.2" y="264" textLength="73.2" clip-path="url(#terminal-2567863954-line-10)">&quot;text&quot;</text><text class="terminal-2567863954-r2" x="85.4" y="264" textLength="24.4" clip-path="url(#terminal-2567863954-line-10)">:&#160;</text><text class="terminal-2567863954-r4" x="109.8" y="264" textLength="463.6" clip-path="url(#terminal-2567863954-line-10)">&quot;##&#160;语音指令\n\n唤醒词默认为\&quot;小梦小梦\&quot;。你可以说：\n\n-&#160;</text><text class="terminal-2567863954-r2" x="1195.6" y="264" textLength="12.2" clip-path="url(#terminal-2567863954-line-10)">
+</text><text class="terminal-2567863954-r4" x="0" y="288.4" textLength="610" clip-path="url(#terminal-2567863954-line-11)">\&quot;小梦小梦，今天天气怎么样？\&quot;\n-&#160;\&quot;小梦小梦，播放周杰伦的歌。\&quot;\n\n固件升级包可从&#160;</text><text class="terminal-2567863954-r2" x="1195.6" y="288.4" textLength="12.2" clip-path="url(#terminal-2567863954-line-11)">
+</text><text class="terminal-2567863954-r4" x="0" y="312.8" textLength="805.2" clip-path="url(#terminal-2567863954-line-12)">https://example.com/support/download&#160;获取，升级过程中请保持电源稳定。升级完成后版本号应显示为&#160;</text><text class="terminal-2567863954-r2" x="1195.6" y="312.8" textLength="12.2" clip-path="url(#terminal-2567863954-line-12)">
+</text><text class="terminal-2567863954-r4" x="0" y="337.2" textLength="170.8" clip-path="url(#terminal-2567863954-line-13)">v2.1.7&#160;或更高。\n&quot;</text><text class="terminal-2567863954-r2" x="219.6" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">,&#160;</text><text class="terminal-2567863954-r4" x="244" y="337.2" textLength="85.4" clip-path="url(#terminal-2567863954-line-13)">&quot;start&quot;</text><text class="terminal-2567863954-r2" x="329.4" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">:&#160;</text><text class="terminal-2567863954-r5" x="353.8" y="337.2" textLength="36.6" clip-path="url(#terminal-2567863954-line-13)">151</text><text class="terminal-2567863954-r2" x="390.4" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">,&#160;</text><text class="terminal-2567863954-r4" x="414.8" y="337.2" textLength="61" clip-path="url(#terminal-2567863954-line-13)">&quot;end&quot;</text><text class="terminal-2567863954-r2" x="475.8" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">:&#160;</text><text class="terminal-2567863954-r5" x="500.2" y="337.2" textLength="36.6" clip-path="url(#terminal-2567863954-line-13)">303</text><text class="terminal-2567863954-r2" x="536.8" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">,&#160;</text><text class="terminal-2567863954-r4" x="561.2" y="337.2" textLength="61" clip-path="url(#terminal-2567863954-line-13)">&quot;seq&quot;</text><text class="terminal-2567863954-r2" x="622.2" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">:&#160;</text><text class="terminal-2567863954-r5" x="646.6" y="337.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-13)">2</text><text class="terminal-2567863954-r2" x="658.8" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">,&#160;</text><text class="terminal-2567863954-r4" x="683.2" y="337.2" textLength="122" clip-path="url(#terminal-2567863954-line-13)">&quot;strategy&quot;</text><text class="terminal-2567863954-r2" x="805.2" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">:&#160;</text><text class="terminal-2567863954-r4" x="829.6" y="337.2" textLength="122" clip-path="url(#terminal-2567863954-line-13)">&quot;markdown&quot;</text><text class="terminal-2567863954-r2" x="951.6" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">,&#160;</text><text class="terminal-2567863954-r4" x="976" y="337.2" textLength="73.2" clip-path="url(#terminal-2567863954-line-13)">&quot;meta&quot;</text><text class="terminal-2567863954-r2" x="1049.2" y="337.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-13)">:&#160;</text><text class="terminal-2567863954-r2" x="1195.6" y="337.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-13)">
+</text><text class="terminal-2567863954-r3" x="0" y="361.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-14)">{</text><text class="terminal-2567863954-r4" x="12.2" y="361.6" textLength="183" clip-path="url(#terminal-2567863954-line-14)">&quot;overlap_chars&quot;</text><text class="terminal-2567863954-r2" x="195.2" y="361.6" textLength="24.4" clip-path="url(#terminal-2567863954-line-14)">:&#160;</text><text class="terminal-2567863954-r5" x="219.6" y="361.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-14)">0</text><text class="terminal-2567863954-r2" x="231.8" y="361.6" textLength="24.4" clip-path="url(#terminal-2567863954-line-14)">,&#160;</text><text class="terminal-2567863954-r4" x="256.2" y="361.6" textLength="122" clip-path="url(#terminal-2567863954-line-14)">&quot;headings&quot;</text><text class="terminal-2567863954-r2" x="378.2" y="361.6" textLength="24.4" clip-path="url(#terminal-2567863954-line-14)">:&#160;</text><text class="terminal-2567863954-r3" x="402.6" y="361.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-14)">[</text><text class="terminal-2567863954-r4" x="414.8" y="361.6" textLength="122" clip-path="url(#terminal-2567863954-line-14)">&quot;智能音箱设置指南&quot;</text><text class="terminal-2567863954-r2" x="634.4" y="361.6" textLength="24.4" clip-path="url(#terminal-2567863954-line-14)">,&#160;</text><text class="terminal-2567863954-r4" x="658.8" y="361.6" textLength="73.2" clip-path="url(#terminal-2567863954-line-14)">&quot;语音指令&quot;</text><text class="terminal-2567863954-r3" x="780.8" y="361.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-14)">]</text><text class="terminal-2567863954-r3" x="793" y="361.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-14)">}</text><text class="terminal-2567863954-r3" x="805.2" y="361.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-14)">}</text><text class="terminal-2567863954-r2" x="1195.6" y="361.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-14)">
+</text><text class="terminal-2567863954-r2" x="1195.6" y="386" textLength="12.2" clip-path="url(#terminal-2567863954-line-15)">
+</text><text class="terminal-2567863954-r1" x="0" y="410.4" textLength="12.2" clip-path="url(#terminal-2567863954-line-16)">$</text><text class="terminal-2567863954-r2" x="12.2" y="410.4" textLength="134.2" clip-path="url(#terminal-2567863954-line-16)">&#160;python&#160;-c&#160;</text><text class="terminal-2567863954-r4" x="146.4" y="410.4" textLength="61" clip-path="url(#terminal-2567863954-line-16)">&quot;...&quot;</text><text class="terminal-2567863954-r6" x="231.8" y="410.4" textLength="231.8" clip-path="url(#terminal-2567863954-line-16)">#&#160;偏移不变量：每个块都能精确回指原文</text><text class="terminal-2567863954-r2" x="1195.6" y="410.4" textLength="12.2" clip-path="url(#terminal-2567863954-line-16)">
+</text><text class="terminal-2567863954-r5" x="0" y="434.8" textLength="12.2" clip-path="url(#terminal-2567863954-line-17)">3</text><text class="terminal-2567863954-r2" x="12.2" y="434.8" textLength="85.4" clip-path="url(#terminal-2567863954-line-17)">&#160;chunks</text><text class="terminal-2567863954-r2" x="1195.6" y="434.8" textLength="12.2" clip-path="url(#terminal-2567863954-line-17)">
+</text><text class="terminal-2567863954-r2" x="0" y="459.2" textLength="366" clip-path="url(#terminal-2567863954-line-18)">invariant&#160;chunk.text&#160;==&#160;source</text><text class="terminal-2567863954-r2" x="366" y="459.2" textLength="24.4" clip-path="url(#terminal-2567863954-line-18)">:&#160;</text><text class="terminal-2567863954-r7" x="390.4" y="459.2" textLength="48.8" clip-path="url(#terminal-2567863954-line-18)">True</text><text class="terminal-2567863954-r2" x="1195.6" y="459.2" textLength="12.2" clip-path="url(#terminal-2567863954-line-18)">
+</text><text class="terminal-2567863954-r2" x="0" y="483.6" textLength="61" clip-path="url(#terminal-2567863954-line-19)">chunk</text><text class="terminal-2567863954-r3" x="61" y="483.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-19)">[</text><text class="terminal-2567863954-r5" x="73.2" y="483.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-19)">1</text><text class="terminal-2567863954-r3" x="85.4" y="483.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-19)">]</text><text class="terminal-2567863954-r8" x="122" y="483.6" textLength="61" clip-path="url(#terminal-2567863954-line-19)">start</text><text class="terminal-2567863954-r2" x="183" y="483.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-19)">=</text><text class="terminal-2567863954-r5" x="195.2" y="483.6" textLength="36.6" clip-path="url(#terminal-2567863954-line-19)">122</text><text class="terminal-2567863954-r8" x="244" y="483.6" textLength="36.6" clip-path="url(#terminal-2567863954-line-19)">end</text><text class="terminal-2567863954-r2" x="280.6" y="483.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-19)">=</text><text class="terminal-2567863954-r5" x="292.8" y="483.6" textLength="36.6" clip-path="url(#terminal-2567863954-line-19)">217</text><text class="terminal-2567863954-r2" x="1195.6" y="483.6" textLength="12.2" clip-path="url(#terminal-2567863954-line-19)">
+</text><text class="terminal-2567863954-r2" x="0" y="508" textLength="73.2" clip-path="url(#terminal-2567863954-line-20)">source</text><text class="terminal-2567863954-r2" x="73.2" y="508" textLength="48.8" clip-path="url(#terminal-2567863954-line-20)">&#160;==&#160;</text><text class="terminal-2567863954-r4" x="122" y="508" textLength="329.4" clip-path="url(#terminal-2567863954-line-20)">&#x27;\n&gt;&#160;长按顶部静音键&#160;8&#160;秒恢复出厂设置，再重新&#x27;</text><text class="terminal-2567863954-r8" x="671" y="508" textLength="36.6" clip-path="url(#terminal-2567863954-line-20)">...</text><text class="terminal-2567863954-r2" x="1195.6" y="508" textLength="12.2" clip-path="url(#terminal-2567863954-line-20)">
+</text>
+    </g>
+    </g>
+</svg>

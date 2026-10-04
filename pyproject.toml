@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "worddael"
-version = "0.1.0rc3"
+version = "0.1.0"
 description = "The Dale of Remembered Words (Worddael) | Chinese-aware RAG text chunking"
 readme = "README.md"
 license = { text = "MIT" }
@@ -12,7 +12,7 @@ authors = [{ name = "worddael contributors" }]
 requires-python = ">=3.10"
 keywords = ["chinese", "chunking", "rag", "nlp", "text-splitting", "retrieval"]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Natural Language :: Chinese (Simplified)",

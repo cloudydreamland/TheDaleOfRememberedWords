@@ -6,10 +6,12 @@
 
 **中文优先的 RAG 文本切分库。把中文文本切成好用的块，并保留精确到字符的原文偏移量。**
 
-[![CI](https://github.com/cloudydreamland/TheDaleOfRememberedWords/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
+[![PyPI](https://img.shields.io/pypi/v/worddael)](https://pypi.org/project/worddael/)
+[![Python](https://img.shields.io/pypi/pyversions/worddael)](https://pypi.org/project/worddael/)
+[![CI](https://github.com/cloudydreamland/TheDaleOfRememberedWords/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/TheDaleOfRememberedWords/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+![worddael 演示：切分 + 偏移不变量验证（真实运行输出）](docs/assets/demo.svg)
 ## 为什么需要它 / Why
 
 通用文本切分器可用于多种语言，但中文句界、标点归属和回引源文等细节往往需要应用自行处理。`worddael` 提供中文规则、可组合策略和原文偏移，让这些行为能在管线中检查：
@@ -129,13 +131,13 @@ LangChain 默认参数切中文的**真实坏例子**（答案腰斩、标题孤
 ## 评测 / Evaluation
 
 - 内置基准（25 篇 / 75 问）真实结果：[benchmarks/results.md](benchmarks/results.md)
-  - 当前快照：recall@1 recursive 0.96 vs fixed-window 0.907；小-大检索（子块 150 检索 / 父块 600 判分）0.987 vs 平铺 0.96
+  - 当前快照：recall@1 recursive 0.973 vs fixed-window 0.947；小-大检索（子块 150 检索 / 父块 600 判分）1.0 vs 平铺 0.973
 - 大规模 LLM 判分评测指南（拿到 key 后）：[docs/eval_guide.md](docs/eval_guide.md)
 - 选题论证（为什么这个缺口是真的）：[GAP_PROOF.md](GAP_PROOF.md)
 
 ## 路线图 / Roadmap
 
-见 [ROADMAP.md](ROADMAP.md)。当前 v0.1.0rc3：六个策略（含父子块）+ 可解释切分 + 标点卫生保证 + 评测框架（测试数以 CI 为准）。真实语料实测见 [docs/dogfood.md](docs/dogfood.md)：90.6 万字《紅樓夢》，24.6 MB/s，卫生违例 0。
+见 [ROADMAP.md](ROADMAP.md)。当前 v0.1.0：六个策略（含父子块）+ 可解释切分 + 标点卫生保证 + 评测框架（测试数以 CI 为准）。真实语料实测见 [docs/dogfood.md](docs/dogfood.md)：90.6 万字《紅樓夢》，24.6 MB/s，卫生违例 0。
 
 ## Non-goals（明确不做）
 

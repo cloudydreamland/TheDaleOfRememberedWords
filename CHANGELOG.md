@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0 (2026-10-05)
+
+首个稳定版，涵盖 0.1.0rc2/rc3 的全部能力：
+
+- 六种切分策略（含父子块 small-to-big）、字符级偏移不变量、标点卫生保证
+- 评测框架：BM25/向量检索 recall@k、内置基准报告随当前代码重新生成
+- README 安装说明更新为 PyPI 安装优先
+
 ## 0.1.0-rc2 (2026-09-26, evening)
 
 - `worddael.eval.qa_gen`: generative QA expansion scaffold — documents to

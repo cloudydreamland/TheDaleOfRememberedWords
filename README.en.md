@@ -4,10 +4,12 @@
 
 **Worddael** is a lightweight Python library for chunking Chinese text for retrieval-augmented generation (RAG), while preserving exact offsets into the source.
 
+[![PyPI](https://img.shields.io/pypi/v/worddael)](https://pypi.org/project/worddael/)
+[![Python](https://img.shields.io/pypi/pyversions/worddael)](https://pypi.org/project/worddael/)
 [![CI](https://github.com/cloudydreamland/TheDaleOfRememberedWords/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/TheDaleOfRememberedWords/actions/workflows/ci.yml)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
-[![MIT license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+![worddael demo: chunking + offset invariant, real output](docs/assets/demo.svg)
 Every returned chunk retains its original text span, so retrieved passages can be traced back to a document without reconstructing offsets.
 
 ## Quick start

@@ -34,7 +34,7 @@ from .io_utils import chunk_file, to_jsonl
 from .parent_child import ParentChildChunker
 from .types import Chunk
 
-__version__ = "0.1.0rc3"
+__version__ = "0.1.0"
 
 # parent-child families are produced by a dedicated module; register the
 # strategy here so get_chunker("parent-child") works like any other.
