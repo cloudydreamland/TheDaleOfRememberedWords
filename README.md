@@ -47,14 +47,17 @@ for current numbers.
 
 ## 安装 / Install
 
-> 当前尚未发布到 PyPI；下方给出从 GitHub 获取并本地安装的命令。
+```bash
+python -m pip install worddael
+python -m pip install "worddael[jieba]"  # 可选增强，按需安装
+```
+
+从源码安装（开发或最新版）：
 
 ```bash
 git clone https://github.com/cloudydreamland/TheDaleOfRememberedWords.git
 cd TheDaleOfRememberedWords
 python -m pip install .
-# PyPI 首发后：python -m pip install worddael
-python -m pip install ".[jieba]"
 ```
 
 ## 快速开始 / Quickstart
