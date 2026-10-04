@@ -12,8 +12,11 @@ Every returned chunk retains its original text span, so retrieved passages can b
 
 ## Quick start
 
-> This package is not on PyPI yet. Install the current GitHub version with:
+```bash
+python -m pip install worddael
+```
 
+Or install from source (latest development version):
 
 ```bash
 git clone https://github.com/cloudydreamland/TheDaleOfRememberedWords.git
